@@ -1,0 +1,15 @@
+Title: tinyboxÎÐ
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: ÎÐ¾®ÊýÂÎ
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+
+ChangeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+
+2002-10-05 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.

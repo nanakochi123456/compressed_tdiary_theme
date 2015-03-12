@@ -1,0 +1,24 @@
+Title: Hellali
+Author: NT
+Access: nt@24i.net
+License: GPL
+Comment: æ«Æ§Œ¿÷
+
+validated by W3C.
+
+ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-11-02 zoe <zoe@kasumi.sakura.ne.jp>
+        * remove some comment-out lines (border in div.body and color in hr.sep).
+
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
+2002-09-12 NT <nt@24i.net>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.

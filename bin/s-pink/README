@@ -1,0 +1,21 @@
+Title: S-PINK
+Author: Nana
+Access: http://moo.boo.jp
+License: GPL
+Comment: 淡いピンクベースのシンプル系
+
+	Copyright by (C) Nana http://moo.boo.jp
+	validated by W3C
+
+ChangeLog
+2002-11-01 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove many /* comment out feature (mainly font-family) */.
+
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

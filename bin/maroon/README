@@ -1,0 +1,24 @@
+Title: マルーン
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: 秋の枯れ葉のテーマ
+
+created by Shinchan <http://nga.jp/>
+modified by TADA Tadashi <sho@spc.gr.jp>
+validated by W3C.
+
+ChangeLog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
+2003-09-09 NT <nt@be.to>
+	* font-size: em -> %.
+
+2002-10-18 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-03 nga<stakei@nga.jp>
+	* add spec.

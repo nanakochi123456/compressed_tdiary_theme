@@ -1,0 +1,39 @@
+Title: Green-border
+Author: Nana <clorets@estyle.ne.jp>
+Comment: カエルくんなテーマ
+License: GPL
+
+Copyright 2002 (C) by Nana <clorets@estyle.ne.jp>
+validated by W3C.
+
+
+Change-Log
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* remove body font-size 
+	* set body margin-left 25% *set calendar3
+	* remove h1,div.day,div.calendar marfin-left:25%
+	* remove form.update textarea margin-left: 3em
+
+2003-01-06 TADA Tadashi <sho@spc.gr.jp>
+	* em -> % in font-size.
+
+2002-11-02 Nana <moo@xu.boo.jp>
+	* charset iso-2022-jp to EUC-JP.
+	* equalize indent size.
+	
+2002-10-21 Nana <moo@xu.boo.jp>
+	* set form.search {text-align:right}
+	
+2002-09-23 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-15 Nana
+        * div.form margin-left:10%--> 0
+            
+2002-04-17 Nana
+        * support calendar2
+
+Comment 
+2003-03-01 Nana <clorets@estyle.ne.jp>
+	* body内に文章を入れている方が多く
+	  画像に文字が被るのでbodyにマージンを取るように変更しました。

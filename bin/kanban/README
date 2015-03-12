@@ -1,0 +1,30 @@
+Title: 看板
+Author: Nana
+Access: <clorets@estyle.ne.jp>
+Comment: 日付が看板に描かれているように見えます
+License: GPL
+
+Copyright 2001 (C) by Nana<clorets@estyle.ne.jp>
+validated by W3C
+
+ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+
+2003-03-13 Nana <clorets@estyle.ne.jp>
+	* div.referer,div.refererlist font-size:13px->90%
+	* support calendar3,p.source,form.search
+
+2002-11-02 Nana <clorets@estyle.ne.jp>
+	* remove body,div.body font-size:13px 
+	* remove p.calendar font-size,font-family
+	* set blockquote,recent_list,calendar2,footnote
+
+2002-10-08 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

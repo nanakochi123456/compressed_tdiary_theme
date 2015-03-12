@@ -1,0 +1,31 @@
+Title: Lightning
+Author: Nana
+Access: http://mikan.sakura.ne.jp/~mpc
+Comment: 
+License: GPL
+
+Copyright by (C) Nana <moo@xu.boo.jp>
+validated by W3C
+
+ChangeLog
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-11-02 zoe <zoe@kasumi.sakura.ne.jp>
+        * equalize indent size.
+
+2002-10-12 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-28 Nana
+        * p calendar font-size16px ->1em
+                 font-size: 1em; ->1em
+          support calendar2
+          deleted font-family
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

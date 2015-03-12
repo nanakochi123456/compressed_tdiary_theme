@@ -1,0 +1,28 @@
+Title: S-BLUE
+Author: Nana
+Access: <clorets@estyle.ne.jp>
+License: GPL
+Comment: 淡いブルーベースのシンプル系
+
+	Copyright by (C) Nana <clorets@estyle.ne.jp>
+	validated by W3C
+ChangeLog
+2003-09-22 NT <nt@be.to>
+	* font-size: em -> %.
+
+2003-03-05 Nana <clorets@estyle.ne.jp>
+	* div.day text-align:left
+	* support major plugin
+
+2002-11-01 zoe <zoe@kasumi.sakura.ne.jp>
+	* remove many /* comment-out feature (mainly font-family) */.
+
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+

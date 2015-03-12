@@ -1,0 +1,21 @@
+Title: Starlight
+Author: Nana
+Access: http://moo.boo.jp
+License: GPL
+Comment: 
+
+	Copyright by (C) Nana http://moo.boo.jp
+	validated by W3C
+
+ChangeLog
+2003-09-16 NT <nt@be.to>
+	* font-size: em -> %.
+
+2002-10-13 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

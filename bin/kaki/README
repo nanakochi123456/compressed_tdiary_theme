@@ -1,0 +1,19 @@
+Title: 柿
+Author: oyuu
+Access: oyuu@mocha.freemail.ne.jp
+License: GPL
+Comment: パステル系オレンジ色のテーマ
+
+	Copyright (c) 2002 oyuu
+	validated by W3C.
+
+ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-11-21 oyuu <oyuu@mocha.freemail.ne.jp>
+	* change div.body font-size.

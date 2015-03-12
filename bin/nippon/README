@@ -1,0 +1,25 @@
+Title: 日本ちゃちゃちゃ
+Author: ただただし
+Access: sho@spc.gr.jp
+License: GPL
+Comment: サッカー日本代表ユニ
+
+Copyright 2002 (C) by TADA Tadashi <sho@spc.gr.jp>
+Validated by W3C.
+
+ChangeLog
+2006-06-02 TADA Tadashi <sho@spc.gr.jp>
+	* some adjustments for mozilla.
+	* add .highlight.
+
+2006-05-30 TADA Tadashi <sho@spc.gr.jp>
+	* change sidebar to right side.
+
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-06-06 TADA Tadashi <sho@spc.gr.jp>
+	* created.

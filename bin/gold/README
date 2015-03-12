@@ -1,0 +1,31 @@
+Title: gold
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: なんとなくゴールドっぽいテーマ 
+
+gold.css: Style Sheet of tDiary
+created by Shinchan <http://nga.jp/>
+validated by W3C.
+
+ChangeLog
+2003-09-08 NT <nt@be.to>
+	* remove specification of font-family.
+
+2002-01-30 TADA Tadashi <sho@spc.gr.jp>
+        * 0.9em -> 90% in font-size.
+
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
+2002-10-06 NT <nt@24i.net>
+        * change some properties in update form.
+
+2002-09-23 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-09-09 NT <nt@24i.net>
+	* fix typo.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* comment font-size: smaller -> 0.9em.

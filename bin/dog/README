@@ -1,0 +1,16 @@
+Title: dog
+Author: peco
+Access: <http://pe.cot.jp/tdiary/>
+License: GPL
+Comment: 犬アンカー
+
+Copyright 2002 (C) by peco <peco@momo.so-net.ne.jp>
+validated by W3C.
+
+ChangeLog
+2003-09-03 NT <nt@be.to>
+	* remove specification of font-family and "em" specification of font-size.
+
+2002-12-30 Nana <moo@xu.boo.jp>
+	* add Dog Theme 
+	* add div.commentshort padding-top: 5px;

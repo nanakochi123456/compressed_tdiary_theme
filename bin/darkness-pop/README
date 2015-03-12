@@ -1,0 +1,33 @@
+Title: Darkness-pop
+Author: Nana
+Comment: support major plugin.
+License: GPL
+Access: <clores@estyle.ne.jp>
+
+	Original theme is sodapop by kadu <http://www.bb.wakwak.com/~akk/kadu/>
+	validated by W3C.
+	Copyright 2002 (C) by Nana <clores@estyle.ne.jp>
+
+Changelog
+2003-09-03 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
+2003-03-12 Nana <clores@estyle.ne.jp>
+	* support major plugin
+	* font-size: small -> 90%.
+	* h1,h2,h3 font-size,160% 120% 110%
+
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+        * equalize indent size.
+	* add a:link etc. in h2 span.date sections.
+
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
+2002-09-14 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+
+Memo
+	2003-03-12 Nana <clores@estyle.ne.jp>
+	* dropdown_calendar¿ä¾©¤Ç¤¹¡£

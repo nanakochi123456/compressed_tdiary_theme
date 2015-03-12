@@ -1,0 +1,52 @@
+Title: Rectangle
+Revision: $Revision: 1.3 $
+Author: Nana
+Access: clorets@estyle.ne.jp
+License: GPL
+Comment: なんとなく■責め
+
+Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
+validated by W3C.
+
+ChangeLog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+	* add "width: 70%;" in div.comment.
+	  this is the same problem.
+
+	2003-03-06 Nana <clorets@estyle.ne.jp>
+	* add Rectangle Theme.
+
+Memo 
+	2003-03-06 Nana <clorets@estyle.ne.jp>
+	* このテーマは最新表示にリンク元を表示しないほうがすっきりします。(あくまでも私感ですが)
+	rectangle.cssを開いて/*リンク元リスト(Month/Latestモード)の設定*/部分を探し
+div.referer {
+       /*display: none;*/
+	font-size: 90%;
+	padding: 5px;
+	margin-top: -1.5em;
+	margin-left: 0px;
+	margin-right: 20%;
+	border: 10px solid #334466;
+	background-color: #6675a3;
+	color: #eee;
+}
+	↑のようになっている部分を以下のように書き換えることで
+	Month/Latestモードのリンク元は表示されなくなります。
+div.referer {
+	display: none;
+       /*font-size: 90%;
+	padding: 5px;
+	margin-top: -1.5em;
+	margin-left: 0px;
+	margin-right: 20%;
+	border: 10px solid #334466;
+	background-color: #6675a3;
+	color: #eee;*/
+}

@@ -1,0 +1,530 @@
+@charset "euc-jp";
+/*
+Title: Note
+Revision: $Revision: 1.7 $
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: 罫線有り
+
+Copyright 2002 (C) by Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+validated by W3C.
+ */
+
+a:link {
+	text-decoration: none;
+	color: #f22;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #f77;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #e44;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #b80;
+	color: #000;
+}
+
+div.adminmenu {
+	text-align: left;
+	font-size: 90%;
+	background-color: #eee;
+	margin: 0em ! important;
+}
+
+span.adminmenu {
+	font-weight: bold;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.calendar {
+	background-color: transparent;
+}
+
+div.day {
+	text-align: left;
+	padding: 0em;
+	margin-bottom: 2em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	padding: 0em;
+	text-align: left;
+	font-size: medium;
+}
+
+div.body {
+	text-align: left;
+	padding: 0em;
+}
+
+h3 {
+	padding: 0em;
+	margin: 0em;
+	font-weight: bold;
+	font-size: medium;
+	line-height: 20px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+div.section {
+	background-image: url(note_dayback.png);
+	background-color: #eec;
+	margin: 1em 0em 1.5em 0em;
+	padding: 0em;
+	font-size: 14px;
+	line-height: 24px;
+	border-style: solid;
+	border-color: #eec;
+	border-width: 24px 12px;
+}
+
+div.section p {
+	line-height: 24px;
+	padding: 0em 1em 0em 1em;
+	margin: 0em ;
+}
+
+div.day span.sanchor {
+	background-image: url(note_panchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 18px 0px 0px;
+	color: #eec;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(note_canchor.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 12px 12px 0px 0px;
+	color: #ed9;
+	background-color: transparent;
+}
+
+pre {
+	margin: 14px 1em;
+	background-color: #eec;
+	padding: 8px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px 1px;
+}
+
+div.comment {
+	background-image: url(note_dayback.png);
+	background-color: #ed9;
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 4px;
+	margin: 1em 0em;
+	border-style: solid;
+	border-color: #ed9;
+	border-width: 24px 10px;
+	line-height: 24px;
+}
+
+div.comment p {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	line-height: 24px;
+}
+
+div.comment div.caption {
+	text-align: left;
+	margin-left: 0em ! important;
+	padding-left: 1em ! important;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+div.refererlist div.caption {
+	padding-left: 1em;
+	margin: 0em;
+	line-height: 24px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 0px 0px 4px 0px;
+}
+
+div.referer {
+	text-align: right;
+	font-size: small;
+	padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.refererlist {
+	background-image: url(note_dayback.png);
+	background-color: #dd9;
+	font-size: 14px;
+	text-align: left;
+	padding: 0em;
+	border-style: solid;
+	border-color: #dd9;
+	border-width: 24px 10px;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+	padding-top: 0em;
+	list-style-image: url(note_liback.png);
+}
+
+div.refererlist ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+div.section ol, div.section ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 24px;
+}
+
+div.section blockquote {
+	margin: 0em 2em;
+	padding: 0em;
+	text-decoration: underline;
+	color: #00c;
+	line-height: 28px;
+}
+
+hr {
+	border-style: none;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: small;
+	text-align: right;
+}
+
+div.form {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+div.form form {
+	width:90%;
+}
+
+input, select {
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+textarea {
+	margin-left: 1em;
+	width: 90%;
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px 2px 1px 2px;
+}
+
+div.body dl {
+	margin-left: 2em;
+	margin-top: 0px;
+	line-height: 24px;
+}
+
+div.body dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+div.body dd {
+	margin-left: 1em;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+strong {
+	font-size: 200%;
+	line-height: 40px;
+}
+
+/* sidebar */
+/* 画像plugin */
+div.img {
+	font-size: small;
+	float: left;
+	text-align: left;
+	margin: 2px 4px;
+}
+
+div.img p.caption {
+	font-weight: bold;
+	text-align: center;
+	margin: 0em;
+	line-height: 1.0;
+}
+
+div.img p.sentence {
+	text-align: left;
+	margin: 0em;
+	padding: 2px;
+}
+
+/* sidebar */
+
+div.sidebar {
+	width: 20%;
+	font-size: x-small;
+	float: right;
+	margin: 0em 4px 0em 0em;
+	padding: 0em;
+}
+
+div.sidebar p{
+	margin: 0em;
+}
+
+div.list {
+	font-size: x-small;
+	text-align: left;
+	margin-bottom: 0.3em;
+	background-color: #eee;
+	color: #111;
+	border: solid 1px #dd8;
+}
+
+div.list ol {
+	padding-left: 2em;
+	margin: 0px 2px;
+}
+
+div.list ul {
+	padding-left: 2px;
+	margin: 0px 2px;
+	list-style: none;
+}
+
+div.list p {
+	background-color: #dd8;
+	margin: 0em;
+	text-align: center;
+}
+
+div.list form {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+p.theme {
+	line-height: 1.0;
+	font-size: x-small;
+}
+
+/* calendar2 */
+table.calendar {
+        background-color: #ddd;
+	font-size: x-small;
+	line-height: 1em;
+	margin: 2px auto;
+	border-spacing: 0px;
+	border-style: ridge;
+	border-color: #000;
+	border-width: 4px 0px 0px 0px;
+	color: #000;
+}
+/*
+table.calendar td.image {
+        background-image: url(nobeyama.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 72px;
+}
+*/
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px 1px;
+	line-height: 1em;
+}
+
+table.calendar td.calendar-sunday {
+	color: #f00;
+}
+
+table.calendar td.calendar-saturday {
+	color: #00f;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0em;
+        margin-bottom: 0em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0em 0.5em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+	font-weight: bold;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0em 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        border-style: solid;
+        border-color: #000;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

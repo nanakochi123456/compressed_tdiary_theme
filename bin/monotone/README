@@ -1,0 +1,15 @@
+Title: monotone
+Author: epi
+Access: episode@104.net
+License: GPL
+Comment: モノトーンっていうのかこういうのを
+
+Copyright by epi All Rights Reserved.
+validated by W3C.
+
+ChangeLog
+2003-09-09 NT <nt@be.to>
+	* remove specification of font-family.
+
+2002-10-21 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.

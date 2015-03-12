@@ -1,0 +1,477 @@
+@charset "euc-jp";
+/*
+Title: Petith Black
+Revision: Revision: 1.6 $
+Author: Nana
+Access: http://moo.boo.jp
+Comment: Petithの黒
+
+	Copyright by (C) Nana http://moo.boo.jp
+	validated by W3C
+ */
+
+a:link {
+	text-decoration: none;
+	color: #ffc0cb;
+}
+a:visited {
+	text-decoration: none;
+	color: #ffc0cb;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #0000cd;
+}
+
+body {
+	background-color: #000;
+	color: #999;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	color: #ffc0cb;
+}
+
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #000;
+       	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	background-color: transparent;
+	border-style: none;
+	border-color: #eee #aaa #aaa #eee;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.calendar {
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+	margin: 0% 12%;
+}
+
+div.day {
+	background-image: url(petith-b_left.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	border-style: none;
+	text-align: right;
+	padding-left: 25px;;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 0px;
+	margin: 0% 12%;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	font-size: 100%;
+    /* Internet Explorer 5 (Mac) can't float a box which isn't assigned its width.  
+       float: right;
+    */
+}
+
+h2 span.date {
+	margin-left: 0.5em;
+}
+h2 span.date {
+	color: #94CECE;
+}
+h2 span.date {
+	color: #ffc0cb;
+}
+a:hover, a:focus {
+	color: white;
+}
+div.body {
+	background-image: url(petith-b_right.gif);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	text-align: left;
+	padding: 1px;
+	padding-top: 60px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-height: 150%;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+div.section p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 140%;
+}
+
+h3 {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+div.day span.sanchor {
+	background-image: url(petith-b_panchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 24px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+div.day span.canchor {
+	background-image: url(petith-b_canchor.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 18px 24px 0px 0px;
+	color: #000;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+pre {
+	background-color: #ffc0cb;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+  	margin: 0em;
+	margin-right: auto;
+	margin-left: 6px;
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+div.comment div.caption {
+	text-align: left;
+}
+
+div.refererlist div.caption {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.referer {
+	text-align: right;
+	font-size: small;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 50px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	width: 66%;
+	margin-top: 0.5em;
+	clear: both;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: small;
+	text-align: right;
+	height: 32px;
+}
+p.footline {
+	float:left;
+}
+
+div.form {
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.form form {
+	width: 100%;
+}
+
+input.field {
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	background-color: white;
+	margin-left: 1em;
+	width: 80%;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 0em;
+}
+
+form.comment input {
+        background-color: white;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+	text-align: right;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        width: 25em;
+        height: 5em;
+	margin-left: auto;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	text-align: left;
+}
+
+div.day.update div.form {
+	margin-left: 0em;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}
+
+div.body blockquote {
+	border-top: 1px solid #ffc0cb;
+        border-bottom: 1px solid #ffc0cb;
+	padding: 8px;
+}
+
+/*
+ いくつかのメジャーなプラグイン対応
+ */
+
+/* calendar2 */
+table.calendar {
+	font-size: small;
+	line-height: 100%;
+	padding: 2px;
+}
+
+table.calendar td {
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/* recent_list */
+p.recentitem {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.recentsubtitles {
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* footnote */
+div.body span.footnote {
+	vertical-align: super;
+	font-size: xx-small;
+}
+div.body div.footnote {
+	border-style:solid;
+	border-color: #aaa;
+	border-width: 1px 0px 0px 0px;
+	margin-left: 10em;
+	font-size:90%;
+}
+
+form.search {
+	margin: 0% 12%;
+}

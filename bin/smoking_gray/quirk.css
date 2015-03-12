@@ -1,0 +1,34 @@
+@charset "euc-jp"
+h2{
+_width:100%;
+}
+h3{_top:0px;_left:0px;h2,h3,.body,.section,.comment{
+_position:relative;
+}
+.day{
+_position:relative;
+_width:100%;
+_margin:0px;
+}
+.body{
+_width:100%;
+}
+.section{
+_top:0px;
+_left:0px;
+_width:100%;
+}
+.section h3{
+_margin-top:-3px;
+}
+.comment{
+_top:0px;
+_left:0px;
+_width:100%;
+}
+.main{
+_width:100%;
+}
+div.adminmenu{
+_width:100%;
+}

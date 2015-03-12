@@ -1,0 +1,19 @@
+Title: Autumn
+Author: zoe
+Access: zoe@kasumi.sakura.ne.jp
+License: GPL
+Comment: 秋色をイメージして見たのだけれども、あんまりそれっぽくなし。色彩感覚が鈍いんだろなあ、きっと。
+
+Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+validated by W3C.
+
+ChangeLog
+2003-08-31 NT <nt@be.to>
+	* removed "em" specification of font-size.
+
+2002-11-03 zoe <zoe@kasumi.sakura.ne.jp>
+	* change span.panchor -> span.sanchor. But not using.
+
+2002-09-27 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+        * first release
+

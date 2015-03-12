@@ -1,0 +1,416 @@
+@charset "euc-jp";
+/*
+Title: tuki
+Revision: $Revision: 1.11 $
+Author: Nana
+Access: http://moo.boo.jp
+License: GPL
+Comment: support calendar2
+
+Copyright by (C) Nana <http://moo.boo.jp>
+validated by W3C
+*/
+/* ChengeLog
+2002-04-28 Nana
+        * support calendar2,blockquote
+        * color#999-> #555
+        * add body font-size:1em
+        * pre color #999 -> #555 
+
+2002-04-03 TADA Tadashi <sho@spc.gr.jp>
+	* #fff -> #555 on title.
+	* add specifications.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+
+2002-03-16 Nana
+	* color:pink>>>#ffc0cb,red>>>#ff0000,white>>>#fff
+	* font-size:15px>>>font-size:medium
+*/
+        
+a:link, a:visited {
+	color: #ffc0cb;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+}
+
+a:active {
+	text-decoration: none;
+	border-width: 1px;
+}
+
+a:hover, a:focus {
+	color: #ff0000;
+}
+
+body {
+        background-color:#fff;
+	background-image: url(tuki.gif);
+        background-repeat: repeat-y;
+        color: #555;
+        font-size: 100%;
+}
+
+p.message {
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	background-color: #ff0;
+	color: #fff;
+	padding: 8px;
+	margin: 0px;
+}
+
+div.adminmenu {
+        text-align: right;
+	
+}
+
+span.adminmenu {
+	background-image:url("tuki_2.gif");
+        border-style: outset;
+        border-color: #fff;
+        border-width: 1px;
+        padding: 3px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h1 {
+	padding: 4px;
+	text-align: center;
+}
+
+div.calendar {
+	background-image: url(tuki_2.gif);
+        background-repeat: repeat-x;
+	text-align: right;
+	padding: 2px;
+	font-weight: bold;
+        margin-left: 80px;
+}
+
+div.day {
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 80px;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	padding: 3px;
+}
+
+h2 span.date {
+	font-size: 100%;
+}
+
+h2 span.title {
+	color: #555;
+	margin-right: 1em;
+}
+
+div.body {
+        background-color: #fff;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-left: 20px;
+        margin-right: 20px;
+}
+
+div.section p {
+	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	line-height: 1.3em;
+}
+
+h3 {
+	border-style: solid;
+	color: #555;
+	border-color: #ffc0cb;
+	border-width: 0px 0px 1px 0px;
+	margin: 0em;
+	font-weight: bold;
+}
+
+pre {
+	background-color: #E6E6FA;
+	color: #555;
+	margin-left: 3em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	color: #555;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-top: 0.5em;
+	margin-left: 4em;
+}
+
+div.comment div.caption {
+	border-style: solid;
+	border-color: #ffc0cb;
+	border-width: 0px 0px 1px 0px;
+	margin-bottom: 0.5em;
+        width:90%;
+}
+
+
+div.refererlist div.caption {
+	border-style: solid;
+	border-color: #ffc0cb;
+	border-width: 0px 0px 1px 0px;
+	margin-bottom: 0.5em;
+}
+
+div.referer {
+	background-color: #fff;
+	text-align: right;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 4em;
+}
+
+div.refererlist {
+	background-image: url(tuki_2.gif);
+        background-repeat: repeat-x;
+	color: #ffc0cb;
+        padding: 2px;
+	padding-bottom: 1px;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: outset;
+	border-color: #ffc0cb;
+	border-width: 1px;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	text-align: right;
+	margin-top: 0px;
+}
+
+div.form {
+	color: #555;
+	background-image: url(tuki_2.gif);
+        padding: 5px;
+	margin-bottom: 0.5em;
+	margin-left: 6em;
+}
+
+div.form form {
+        width: 100%;
+}
+    
+input.field {
+	background-color: #fff;
+}
+
+textarea {
+	background-color: #fff;
+	margin-left: 3em;
+        width: 90%;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.body blockquote {
+        border-width: 2px 0px 2px 0px;
+        border-color: #FFB6C1;
+        border-style: dotted;
+        background-color: #FFFAFA;
+        color: #DB7093;
+}
+
+/* calendar2 */
+table.calendar {
+	font-size: 90%;
+	line-height: 100%;
+	border-width: 2px;
+	border-color: #FFB6C1;
+	border-style: dotted;
+	background-color: #FFFAFA;
+	color: #555;
+	padding: 2px;
+	margin-left: 5em;
+}
+
+table.calendar td {
+	margin: 0px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.calendar td.calendar-prev-month, table.calendar
+td.calendar-current-month, table.calendar td.calendar-next-month {
+	text-align: center;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        border-style: solid;
+        border-color: #ffc0cb;
+        border-width: 0px 0px 1px 0px;
+	display: inline;
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        line-height: 1.5em;
+	margin: 0em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em 0em 0em 2em;
+}
+
+div.form div.caption {
+        border-style: solid;
+        border-color: #ffc0cb;
+        border-width: 0px 0px 1px 0px;
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: #fff;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: #fff;
+        margin-left: 3em;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	color: #555;
+	background-image: url(tuki_2.gif);
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: #fff;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-left: 3em;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

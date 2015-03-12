@@ -1,0 +1,28 @@
+Title: Petith Black
+Author: Nana
+Access: http://moo.boo.jp
+Comment: Petithの黒バック版
+License: GPL
+
+	Copyright by (C) Nana http://moo.boo.jp
+	validated by W3C
+
+ChangeLog
+2003-09-13 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-11-03 Nana <moo@xu.boo.jp>
+	* CRLF to LF
+	* remove body,div.day font-size:13px
+	* div.refererlist font-size:13px -> small
+	* set div.body blockquote calendar2,recent_list,footnote,form.search
+
+2002-10-20 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

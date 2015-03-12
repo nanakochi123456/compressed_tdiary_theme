@@ -1,0 +1,26 @@
+Title: トリプルグレー
+Author: しんちゃん
+Access: stakei@nga.jp
+License: GPL
+Comment: グレーのストライプ、いたってシンプルなテーマ
+	Copyright 2002 (C) nga <http://nga.jp/>
+	validated by W3C.
+
+ChangeLog
+2003-09-15 NT <nt@be.to>
+	* font-size: em -> %.
+
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
+2002-10-05 Hiroyuki Ikezoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+	* validated by W3C.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* div.comment font: smaller -> small.
+
+2002-04-03 nga<stakei@nga.jp>
+	* created

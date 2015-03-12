@@ -1,0 +1,277 @@
+@charset "euc-jp"
+body{
+background-color:#fff;
+background-image:url(background.png);
+background-repeat:repeat-x;
+background-attachment:fixed;
+padding:30px 1em 1em 1em;
+color:#333;
+}
+a:link{
+color:#933;
+}
+a:visited{
+color:#633;
+}
+a:hover{
+color:red;
+}
+a{
+text-decoration:none;
+}
+div.adminmenu{
+text-align:right;
+font-size:small;
+margin-bottom:1em;
+}
+h1{
+color:#000;
+text-align:left;
+font-size:150%;
+font-style:normal;
+margin-bottom:1em;
+margin-left:1.5em;
+padding-bottom:10px;
+}
+div.calendar{
+text-align:right;
+font-size:80%;
+padding:2px;
+margin-bottom:0.5em;
+}
+.headline{
+text-align:right;
+font-size:80%;
+padding:2px;
+margin-bottom:3em;
+}
+div.day{
+margin:1em 1em 5em 1em;
+}
+h2{
+font-size:120%;
+font-style:normal;
+margin-top:2em;
+padding:5px;
+}
+h2 span.date{
+margin-left:0.5em;
+}
+h2 span.title{
+}
+div.body{
+padding:2px;
+padding-bottom:1px;
+margin-left:1.5em;
+margin-right:2em;
+}
+h3{
+font-size:100%;
+margin-top:1em;
+font-weight:bold;
+}
+div.section p{
+padding:0em 1em 0em 1.5em;
+line-height:140%;
+}
+div.comment{
+font-size:90%;
+background-color:#fcfcfc;
+border-color:#aaa;
+border-style:solid;
+border-width:0em 2px;
+padding:5px;
+margin:0.5em 1em 0 2em;
+}
+div.comment div.caption{
+}
+div.referer{
+text-align:right;
+font-size:90%;
+padding:2px;
+padding-bottom:1px;
+margin-left:2em;
+margin-right:1em;
+}
+div.refererlist{
+font-size:90%;
+padding:2px;
+padding-bottom:1px;
+margin-top:0.5em;
+margin-left:2em;
+margin-right:1em;
+}
+div.refererlist div.caption{
+}
+div.refererlist ul{
+margin-top:0em;
+}
+hr{
+border-style:solid;
+border-width:2px 0px 0px 0px;
+border-color:#ddd;
+}
+hr.sep{
+display:none;
+}
+div.footer{
+font-size:80%;
+text-align:right;
+margin-top:0px;
+}
+div.form{
+padding:0.5em 1em 0.5em 1em;
+margin:0.5em 1em 0.5em 2em;
+}
+input.field{
+background-color:white;
+}
+textarea{
+background-color:white;
+margin-left:1em;
+width:30em;
+}
+p.message{
+text-align:center;
+font-size:large;
+background-color:red;
+color:white;
+padding:8px;
+}
+pre{
+border-color:#999;
+border-width:0em 0em 0em 3px;
+border-style:double;
+margin-left:4em;
+margin-right:1em;
+padding:8px 8px 8px 8px;
+}
+div.body blockquote{
+border-color:#ccc;
+border-width:0em 0em 0em 3px;
+border-style:double;
+margin-left:4em;
+margin-right:1em;
+padding:8px;
+}
+div.body dl{
+margin-left:2em;
+}
+div.body dt{
+margin-bottom:0.2em;
+font-weight:bold;
+}
+div.body dd{
+margin-left:1em;
+margin-bottom:0.5em;
+}
+em{
+color:black;
+font-weight:normal;
+font-style:normal;
+}
+strong{
+color:black;
+font-size:130%;
+font-style:normal;
+}
+.hide{
+background-color:#333333;
+}
+.sfooter{
+margin-left:45px;
+}
+p.source{
+margin-top:0em;
+margin-right:1.5em;
+text-align:right;
+font-size:90%;
+}
+div.commentshort{
+margin-left:0.5em;
+}
+span.commentator{
+}
+div.commentshort p{
+margin-top:0.2em;
+margin-bottom:0.2em;
+line-height:1.2em;
+}
+div.commentbody{
+margin:0.5em;
+line-height:1.2em;
+}
+div.commentator{
+line-height:1.5em;
+color:#cc6600;
+}
+div.commentbody p{
+margin:0.5em;
+}
+div.form form{
+margin:0em;
+}
+div.form div.caption{
+margin:0.5em;
+}
+div.form form.comment{
+}
+div.field{
+display:inline;
+margin-right:2em;
+}
+form.comment input{
+background-color:white;
+margin-left:1em;
+}
+div.textarea{
+display:block;
+vertical-align:top;
+}
+form.comment textarea{
+display:block;
+background-color:white;
+width:30em;
+height:5em;
+}
+div.button{
+display:block;
+}
+form.update{
+padding-top:0.5em;
+padding-bottom:0.5em;
+}
+form.update input,form.update textarea,form.commentstat input{
+background-color:white;
+}
+form.update span.field{
+display:inline;
+margin-left:0em;
+margin-right:0.5em;
+}
+form.update div.field.title{
+display:block;
+margin-top:1em;
+}
+form.update div.field.title input{
+margin-left:0.5em;
+}
+form.update div.textarea{
+display:block;
+margin-top:1em;
+}
+form.update textarea{
+display:block;
+margin-bottom:1em;
+width:35em;
+height:15em;
+}
+form.update span.checkbox.hidediary{
+margin-left:1em;
+}
+div.comment form{
+margin-top:0em;
+}
+h2 span.nyear{
+font-size:80%;
+}

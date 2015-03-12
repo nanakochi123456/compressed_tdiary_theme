@@ -1,0 +1,406 @@
+@charset "euc-jp";
+/*
+Title: S-PINK
+Revision: $Revision: 1.8 $
+Author: Nana
+Access: http://moo.boo.jp
+Comment: 淡いピンクベースのシンプル系
+
+	Copyright by (C) Nana http://moo.boo.jp
+	validated by W3C
+ */
+/* ChangeLog
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.
+*/
+
+a:link {
+	text-decoration: none;
+	color: #FF4242;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF4242;
+}
+
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #ffc0cb;
+}
+
+body {
+	background-color: #FFF2EC;
+	color: #000;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+strong {
+	font-weight: bold;
+	font-size: larger;
+}
+
+div.adminmenu {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.antenna {
+	text-align: right;
+	font-size: small;
+	float: right;
+}
+
+p.message {
+	text-align: center;
+	font-size: medium;
+	background-color: #fff;
+	width: 66%;
+	color: #888;
+	padding: 8px;
+}
+
+span.adminmenu {
+	color: #000;
+	background-color: transparent;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	padding: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.calendar {
+	color: #000;
+	background-color: transparent;
+	border-style: none;
+	padding-top: 0.5em;
+}
+div.day {
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #000;
+	text-align: right;
+	padding: 0.5em;
+	padding-bottom: 0em;
+	padding-top: 30px;
+	margin: 0em;
+}
+
+h2 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-right: 12px;
+	padding: 0em;
+	text-align: right;
+	font-size: medium;
+}
+
+h2 span.date {
+	font-size: small;
+	margin-left: 0.5em;
+	margin-top: 3em;
+}
+h2 span.date {
+	color: #FF4242;
+}
+h2 span.title {
+}
+
+div.body {
+	color: #000;
+	background-color: transparent;
+	text-align: left;
+	padding: 0.1em;
+	margin-left: auto;
+	margin-right: 6px;
+}
+
+div.body p {
+	padding-left: 16px;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+}
+
+
+
+div.section p {
+	margin-bottom: 0.5em;
+	margin-top: 0.3em;
+	line-height: 1.4;
+}
+
+h3 {
+	margin: 0em;
+	padding: 0em;
+	font-weight: bold;
+	font-size: medium;
+}
+
+pre {
+	background-color: pink;
+	color: #000;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 8px 8px 8px 8px;
+}
+
+div.comment {
+	font-size: small;
+	text-align: left;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 20px;
+  	margin: 0em;
+	margin-right: auto;
+	margin-left: 6px;
+}
+
+div.comment p {
+	padding-left: 1em;
+}
+
+div.comment div.caption {
+	text-align: right;
+}
+
+
+div.refererlist div.caption {
+	border-style: solid;
+	border-color: #aaa;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.referer {
+	text-align: right;
+	font-size: small;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	margin-right: 12px;
+}
+
+div.refererlist {
+	font-size: small;
+	text-align: left;
+	color: #000;
+	background-color: transparent;
+	padding: 2px;
+	padding-bottom: 1px;
+	width: 80%;
+	clear: both;
+}
+
+div.refererlist ul {
+	margin-top: 0em;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	border-color: #ddd;
+}
+
+hr.sep {
+	display: none;
+}
+
+div.footer {
+	font-size: small;
+	text-align: right;
+	height: 32px;
+}
+p.footline {
+	float:left;
+}
+
+div.form {
+	color: #000;
+	background-color: transparent;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+}
+
+input.field {
+	color: black;
+	background-color: white;
+}
+
+input {
+	clear: left;
+}
+
+textarea {
+	color: black;
+	background-color: white;
+	margin-left: 1em;
+}
+
+div.body dl {
+	margin-left: 2em;
+}
+
+div.body dt {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+div.body dd {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+p.strong {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+}
+
+/*
+ツッコミ省略版本文
+*/
+div.commentshort {
+        margin-left: 0.5em;
+}
+
+span.commentator {
+}
+
+div.commentshort p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミ本体
+*/
+div.commentbody {
+        margin: 0.5em;
+        line-height: 1.2em;
+}
+
+/*
+ツッコミした人の情報
+*/
+div.commentator {
+        line-height: 1.5em;
+}
+
+/*
+ツッコミ本文
+*/
+div.commentbody p {
+        margin: 0.5em;
+}
+
+/*
+フォームの設定
+*/
+div.form form {
+        margin: 0em;
+}
+
+div.form div.caption {
+        margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+        display: inline;
+        margin-right: 2em;
+}
+
+form.comment input {
+        background-color: white;
+        color: black;
+        margin-left: 1em;
+}
+
+div.textarea {
+        display: block;
+        vertical-align: top;
+}
+
+form.comment textarea {
+        display: block;
+        background-color: white;
+        color: black;
+        width: 30em;
+        height: 5em;
+}
+
+div.button {
+        display: block;
+}
+
+/*
+更新フォーム
+*/
+div.day.update {
+	text-align: left;
+}
+
+form.update {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+        background-color: white;
+        color: black;
+}
+
+form.update span.field {
+        display: inline;
+        margin-left: 0em;
+        margin-right: 0.5em;
+}
+
+form.update div.field.title {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update div.field.title input {
+        margin-left: 0.5em;
+}
+
+form.update div.textarea {
+        display: block;
+        margin-top: 1em;
+}
+
+form.update textarea {
+        display: block;
+        margin-bottom: 1em;
+        width: 35em;
+        height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+        margin-left: 1em;
+}
+
+/*
+ツッコミ状態変更フォーム
+*/
+div.comment form {
+        margin-top: 0em;
+}

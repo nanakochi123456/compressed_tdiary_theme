@@ -1,0 +1,23 @@
+Title: Wine
+Author: Nana
+Access: http://moo.boo.jp
+Licence: GPL
+Comment: ワイン色
+Copyright 2002 (C) by Nana
+	validated by W3C.
+
+ChangeLog
+2003-09-14 NT <nt@be.to>
+	* font-size: em -> %.
+
+2003-03-03 Nana <clorets@estyle.ne.jp>
+	* font-size adjustment.
+	* div.commentator->span.commentator font-weight: bold;
+	* form width35em->30em
+	* set calendar3,footnote,sidebar,recent-list
+
+2002-10-02 zoe <zoe@kasumi.sakura.ne.jp>
+	* convert for 1.5 series.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

@@ -1,0 +1,20 @@
+Title: なんでやねん
+Author: Junichiro KITA
+Access: kita@kitaj.no-ip.com
+License: GPL
+Comment: 「今日のなんでやねん」のテーマ
+
+ChanaegLog
+2005-07-31 Junichiro Kita <kita@kitaj.no-ip.com>
+	* change license from GFDL to GPL.
+
+2003-09-10 NT <nt@be.to>
+	* remove specification of font-family.
+	* font-size: em -> %.
+
+2002-10-21 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-04-05 TADA Tadashi <sho@spc.gr.jp>
+	* add spec.
+	* font-size: smaller -> 0.9em.

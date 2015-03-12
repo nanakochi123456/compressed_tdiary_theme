@@ -1,0 +1,34 @@
+Title: blackbox
+Author: zoe
+Access: http://www.kasumi.sakura.ne.jp/~zoe/
+License: GPL
+Comment: ブラックボックスなテーマ
+
+blackbox.css: BlackBox Style Sheet 
+Copyright by (C) zoe http://www.kasumi.sakura.ne.jp/~zoe/
+validated by W3C
+
+ChangeLog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
+2003-09-09 Nana <clorets@estyle.ne.jp> 
+           * remove form.search,img.logo  float
+
+2003-09-05 Nana <clorets@estyle.ne.jp>
+	   * remove div.adminmenu,div.calendar  float
+	   * set div.body clear: both
+	   
+2003-09-02 NT <nt@be.to>
+	* remove "em" specification of font-size.
+
+2002-10-18 NT <nt@24i.net>
+        * remove some "color:".
+
+2002-09-13 NT <nt@24i.net>
+        * convert for 1.5 series.
+
+2002-03-27 TADA Tadashi <sho@spc.gr.jp>
+	* fix textarea biyo--n problem.

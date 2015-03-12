@@ -1,0 +1,294 @@
+@charset "euc-jp"
+body{
+background-color:#cece9c;
+background-image:url(sidelight_main.png);
+background-repeat:repeat-y;
+margin-left:100px;
+color:#333;
+}
+a:link{
+color:#333;
+border-width:0em 0em 1px 0em;
+border-color:#333;
+border-style:solid;
+}
+a:visited{
+color:#333;
+border-width:0em 0em 1px 0em;
+border-color:#333;
+border-style:dotted;
+}
+a:hover{
+color:red;
+border-width:0em 0em 1px 0em;
+border-color:red;
+border-style:solid;
+}
+a{
+text-decoration:none;
+}
+div.adminmenu{
+text-align:right;
+font-size:small;
+margin-bottom:4em;
+}
+h1{
+color:#000;
+text-align:left;
+font-size:150%;
+font-style:normal;
+margin-left:-60px;
+padding-left:60px;
+margin-bottom:2em;
+padding-bottom:10px;
+border-width:0em 0em 1px 0em;
+border-color:#fff;
+border-style:solid;
+}
+div.calendar{
+text-align:right;
+font-size:80%;
+padding:2px;
+margin-bottom:0.5em;
+}
+.headline{
+text-align:right;
+font-size:80%;
+padding:2px;
+margin-bottom:3em;
+}
+div.day{
+margin:1em;
+}
+h2{
+font-size:120%;
+font-style:normal;
+border-width:1px 0em 0em 1px;
+border-style:solid;
+border-color:#fff;
+margin-top:2em;
+padding:5px;
+}
+h2 span.date{
+margin-left:0.5em;
+}
+h2 span.title{
+}
+div.body{
+padding:2px;
+padding-bottom:1px;
+margin-left:0.5em;
+margin-right:1em;
+}
+h3{
+font-size:100%;
+margin-top:1em;
+font-weight:bold;
+border-color:#ccc;
+border-width:0em 0em 1px 0em;
+border-style:solid;
+}
+div.section p{
+margin:0.5em 0em 1em 1em;
+line-height:1.4em;
+}
+div.comment{
+font-size:90%;
+background-color:#ddddaa;
+border-color:#fff;
+border-style:solid;
+border-width:1px;
+padding:2px 2px 1px 2px;
+margin:0.5em 1em 0 2em;
+}
+div.comment div.caption{
+}
+div.referer{
+text-align:right;
+font-size:90%;
+padding:2px;
+padding-bottom:1px;
+margin-left:2em;
+margin-right:1em;
+}
+div.refererlist{
+font-size:90%;
+padding:2px;
+padding-bottom:1px;
+margin-top:0.5em;
+margin-left:2em;
+margin-right:1em;
+}
+div.refererlist div.caption{
+}
+div.refererlist ul{
+margin-top:0em;
+}
+hr{
+border-style:solid;
+border-width:2px 0px 0px 0px;
+border-color:#ddd;
+}
+hr.sep{
+display:none;
+}
+div.footer{
+font-size:small;
+text-align:right;
+margin-top:0px;
+}
+div.form{
+padding:0.5em 1em 0.5em 1em;
+margin:0.5em 1em 0.5em 2em;
+}
+input.field{
+background-color:white;
+}
+textarea{
+background-color:white;
+margin-left:1em;
+width:30em;
+}
+p.message{
+text-align:center;
+font-size:large;
+background-color:red;
+color:white;
+padding:8px;
+}
+pre{
+border-color:#999;
+border-width:3px;
+border-style:double;
+background-color:#f3f3e6;
+margin-left:2em;
+margin-right:1em;
+padding:8px 8px 8px 8px;
+}
+div.body blockquote{
+border-color:#ccc;
+border-width:3px;
+border-style:double;
+background-color:#f3f3e6;
+margin-left:2em;
+margin-right:1em;
+padding:8px;
+}
+div.body dl{
+margin-left:2em;
+}
+div.body dt{
+margin-bottom:0.2em;
+font-weight:bold;
+}
+div.body dd{
+margin-left:1em;
+margin-bottom:0.5em;
+}
+em{
+font-weight:normal;
+font-style:normal;
+background-color:#99ff99;
+}
+strong{
+color:black;
+font-style:normal;
+background-color:#99ff99;
+}
+.hide{
+background-color:#333333;
+}
+.sfooter{
+margin-left:45px;
+}
+p.source{
+margin-top:0em;
+margin-right:1.5em;
+text-align:right;
+font-size:90%;
+}
+div.commentshort{
+margin-left:0.5em;
+}
+span.commentator{
+}
+div.commentshort p{
+margin-top:0.2em;
+margin-bottom:0.2em;
+line-height:1.2em;
+}
+div.commentbody{
+margin:0.5em;
+line-height:1.2em;
+}
+div.commentator{
+line-height:1.5em;
+color:#cc6600;
+}
+div.commentbody p{
+margin:0.5em;
+}
+div.form form{
+margin:0em;
+}
+div.form div.caption{
+margin:0.5em;
+}
+div.form form.comment{
+}
+div.field{
+display:inline;
+margin-right:2em;
+}
+form.comment input{
+background-color:white;
+margin-left:1em;
+}
+div.textarea{
+display:block;
+vertical-align:top;
+}
+form.comment textarea{
+display:block;
+background-color:white;
+width:30em;
+height:5em;
+}
+div.button{
+display:block;
+}
+form.update{
+padding-top:0.5em;
+padding-bottom:0.5em;
+}
+form.update input,form.update textarea,form.commentstat input{
+background-color:white;
+}
+form.update span.field{
+display:inline;
+margin-left:0em;
+margin-right:0.5em;
+}
+form.update div.field.title{
+display:block;
+margin-top:1em;
+}
+form.update div.field.title input{
+margin-left:0.5em;
+}
+form.update div.textarea{
+display:block;
+margin-top:1em;
+}
+form.update textarea{
+display:block;
+margin-bottom:1em;
+width:35em;
+height:15em;
+}
+form.update span.checkbox.hidediary{
+margin-left:1em;
+}
+div.comment form{
+margin-top:0em;
+}

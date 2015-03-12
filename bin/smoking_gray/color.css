@@ -1,0 +1,60 @@
+@charset "euc-jp"
+body{
+background-color:#606060;
+}
+.day{
+background:#ffffff url("f0.png") repeat-y top right;
+}
+h1,.comment,.sidebar,div.adminmenu,.footer,.refererlist,div.search_form{
+background:#f8f8f8 url("f0.png") repeat-y top right;
+}
+div.calendar{
+background:#f0f0f0 url("e8.png") repeat-y top right;
+}
+h2,.main div.adminmenu{
+background:#e8e8e8 url("e0.png") repeat-y top right;
+}
+h3,div.footnote,.commentator,h4.hatena-module,div.hatena-moduletitle{
+background:#e0e0e0 url("d8.png") repeat-y top right;
+}
+.caption{
+background:#d8d8d8 url("d0.png") repeat-y top right;
+}
+.sidebar div.adminmenu{
+background-color:transparent;
+}
+a{
+color:#ff0000;
+}
+a:link{
+color:#ff0000;
+}
+a:visited{
+color:#cc0000;
+}
+a:hover{
+color:#cc0000;
+}
+a:active{
+}
+img{
+border:none;
+}
+blockquote{
+border-color:#d8d8d8;
+}
+blockquote cite{
+border-top-color:#515151;
+}
+pre{
+background-color:#e8e8e8;
+}
+.section ins{
+border-color:#b8b8b8;
+}
+.section ins:before{
+border-bottom-color:#c0c0c0;
+}
+.section h4,.section h5,.section h6{
+border-color:#d0d0d0;
+}

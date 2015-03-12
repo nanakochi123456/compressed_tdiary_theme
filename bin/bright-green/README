@@ -1,0 +1,24 @@
+Title: Bright-green
+Revision: $Revision: 1.4 $
+Author: Nana
+Access: <clorets@estyle.ne.jp>
+License: GPL
+Comment: 新緑の季節な感じ
+
+Copyright 2003 (C) by Nana <clorets@estyle.ne.jp>
+validated by W3C.
+
+Memo
+ヘッダ、フッダに文字を入れる場合は
+  <div class="rank"><p>ここに文字文字文字</p></div>
+などとしてもらえると背景が白になり日記と違和感無く綺麗にレイアウトされます。
+
+Changelog
+2003-09-10 zoe <poincare@ikezoe.net>
+	* add width property in div.section.
+	  see http://members.at.infoseek.co.jp/cssbug/detail/winie/b032.html
+	  and http://www.tdiary.org/archive/theme/msg00506.html
+
+2003-09-02 NT <nt@be.to>
+	* remove specification of font-family.
+

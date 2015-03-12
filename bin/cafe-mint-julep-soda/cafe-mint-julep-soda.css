@@ -209,6 +209,9 @@ width:80%;
 color:#555;
 margin:3em auto 3em 10%;
 }
+div.highlight{
+background-color:#fbfaf5;
+}
 a.amazon-detail,a.amazon-detail:visited,a.amazon-detail:hover{
 color:#000;
 text-decoration:none;

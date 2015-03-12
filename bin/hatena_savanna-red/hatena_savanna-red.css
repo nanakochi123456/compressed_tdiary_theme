@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 body{
 margin:0px;
 padding:0px;
@@ -6,7 +6,7 @@ text-align:center;
 width:auto;
 background:#5D2816 url(head.gif) top center repeat-x;
 color:#F6F0E1;
-font-family:"Verdana","£Í£Ó £Ð¥´¥·¥Ã¥¯","Osaka",sans-serif;
+font-family:"Verdana","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Osaka",sans-serif;
 }
 h1{
 font-size:160%;

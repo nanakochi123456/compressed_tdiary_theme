@@ -1,4 +1,4 @@
-@charset 'euc-jp'
+@charset 'utf-8'
 body{
 background-color:#FFFFFF;
 background-image:url('bg01.gif');
@@ -6,7 +6,7 @@ background-repeat:repeat-y;
 color:#000000;
 font-size:100%;
 line-height:150%;
-font-family:"£Í£Ó £Ð¥´¥·¥Ã¥¯",sans-serif;
+font-family:"ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",sans-serif;
 margin:0;
 width:100%;
 padding:0;
@@ -58,7 +58,7 @@ background-color:#FFFFFF;
 font-size:120%;
 text-align:center;
 font-weight:bold;
-font-family:"Arial","Helvetica","£Í£Ó £Ð¥´¥·¥Ã¥¯",sans-serif;
+font-family:"Arial","Helvetica","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",sans-serif;
 letter-spacing:0.5em;
 color:#000000;
 padding:55px 0px 40px 0;

@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 div.diary{
 margin:0px auto;
 max-width:1024px;
@@ -471,4 +471,7 @@ border:none;
 div.profile span{
 font-size:0.9em;
 display:block;
+}
+div.socialbuttons{
+text-align:right;
 }

@@ -1,4 +1,4 @@
-@charset 'euc-jp'
+@charset 'utf-8'
 *{
 margin:0px;
 padding:0px;
@@ -548,32 +548,32 @@ option{
 font-family:"Verdana",sans-serif;
 }
 textarea,input{
-font-family:"¥Ò¥é¥®¥Î³Ñ¥´ Pro W3","Osaka",sans-serif;
+font-family:"ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","Osaka",sans-serif;
 }
 input{
 font-family:"Verdana",sans-serif;
 }
 textarea{
-font-family:"£Í£Ó ¥´¥·¥Ã¥¯",monospace;
+font-family:"ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯",monospace;
 }
 del{
 color:#999999;
 text-decoration:line-through;
 }
 div.section del:after{
-content:"(ºï½üÆü»þ¡§"attr(attr)")";
+content:"(å‰Šé™¤æ—¥æ™‚ï¼š"attr(attr)")";
 }
 ins{
 text-decoration:none;
 border-bottom:solid 1px #8899bb;
 }
 div.section ins:before{
-content:"ÄÉµ­¡§";
+content:"è¿½è¨˜ï¼š";
 color:#000000;
 font-weight:bold;
 }
 div.section ins:after{
-content:"(ÄÉµ­Æü»þ¡§"attr(attr)")";
+content:"(è¿½è¨˜æ—¥æ™‚ï¼š"attr(attr)")";
 color:#999999;
 }
 img.hatena-fotolife,img.hatena-question-image,img.ean,img.barcode{
@@ -1050,7 +1050,7 @@ font-size:90%;
 font-weight:normal;
 }
 h3.subtitle:before{
-content:"¢£ ";
+content:"â–  ";
 color:#cccccc;
 font-weight:normal;
 }

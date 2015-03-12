@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 body{
 font-family:Verdana,Geneva,Arial,Sans-serif;
 color:#030;
@@ -166,7 +166,7 @@ text-align:left;
 div.conf{
 margin:2em 0 2em 0;
 line-height:1.4em;
-font-family:"£Í£Ó ¥´¥·¥Ã¥¯";
+font-family:"ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯";
 }
 div.conf a{
 margin-right:0.7em;

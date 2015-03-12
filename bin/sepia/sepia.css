@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 body,div.sidebar,table.calendar td.calendar-prev-month,table.calendar td.calendar-current-month,table.calendar td.calendar-next-month,table.calendar td.calendar-day{
 background-color:#F9F5F2;
 }

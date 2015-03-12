@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 body{
 line-height:1.4;
 margin:20px;
@@ -58,7 +58,7 @@ padding:5px 5px 0px 5px;
 border-top:1px dashed silver;
 }
 blockquote cite:after{
-content:"¤è¤ê";
+content:"ã‚ˆã‚Š";
 }
 pre{
 margin:1em;

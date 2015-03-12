@@ -2,7 +2,7 @@
 body{
 margin:0;
 padding:0;
-font-family:tt,"£Í£Ó ¥´¥·¥Ã¥¯","Osaka-ÅùÉı";
+font-family:tt,"ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯","Osaka-ç­‰å¹…";
 background:#fff;
 }
 a{
@@ -29,10 +29,10 @@ border:2px solid #98b37d;
 text-align:center;
 }
 h1:before{
-content:"¡Ú";
+content:"ã€";
 }
 h1:after{
-content:"¡Û";
+content:"ã€‘";
 }
 div.main{
 margin-left:25%;

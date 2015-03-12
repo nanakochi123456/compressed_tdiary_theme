@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 body{
 background-repeat:repeat;
 background-image:url(dot.png);
@@ -75,7 +75,7 @@ padding:4px;
 margin:0.5em 0.7em 0.5em 0.7em;
 }
 div.section{
-font:11pt/150% MS P ¥´¥·¥Ã¥¯;
+font:11pt/150% MS P ã‚´ã‚·ãƒƒã‚¯;
 line-height:100%;
 border:1px solid gray;
 background-image:dot_section.png;
@@ -459,7 +459,7 @@ border:1px solid gray;
 width:18%;
 float:right;
 padding:0px 0px 2px 0px;
-font:11pt/150% MS ¥´¥·¥Ã¥¯;
+font:11pt/150% MS ã‚´ã‚·ãƒƒã‚¯;
 margin-right:2%;
 }
 div.sidebar p{

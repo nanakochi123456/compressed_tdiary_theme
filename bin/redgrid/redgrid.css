@@ -1,4 +1,4 @@
-@charset "euc-jp"
+@charset "utf-8"
 A{
 text-decoration:none;
 }
@@ -192,7 +192,7 @@ text-decoration:none;
 font-size:90%;
 }
 INS:before{
-content:"(ÄÉµ­)";
+content:"(è¿½è¨˜)";
 }
 DEL,DEL A.keyword,DEL A.keyword:link,DEL A.keyword:visited{
 color:#708090;

@@ -30,6 +30,30 @@ https://github.com/martinkozak/optipng
 jpeg - mozjpeg
 https://github.com/mozilla/mozjpeg
 
+.css.gz / .js.gz - 7zip
+http://sevenzip.sourceforge.jp/
+
+
+CSS / JavsScriptを高速配信するには？
+Apacheの場合、以下を .htaccessに追加して下さい。うまく動くかもしれません。
+（でないと、いんたぁなる、さぁばぁ、えらーとなります）
+
+特別、既に書かれている、hoge.css を hoge.css.gz に書き換える必要はありません。
+
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule .+ %{REQUEST_URI}.gz
+
+<FilesMatch "\.css\.gz$">
+	ForceType   text/css
+	AddEncoding x-gzip .gz
+</FilesMatch>
+
+<FilesMatch "\.js\.gz$">
+	ForceType   application/x-javascript
+	AddEncoding x-gzip .gz
+</FilesMatch>
 
 
 以下、tdiary theme 同梱の README.md

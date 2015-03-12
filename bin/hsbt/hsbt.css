@@ -312,15 +312,13 @@ white-space:-pre-wrap;
 white-space:-o-pre-wrap;
 white-space:pre-wrap;
 word-wrap:break-word;
-border-top:#DDE 1px solid;
-border-bottom:#889 1px solid;
-border-left:#DDE 1px solid;
-border-right:#889 1px solid;
 padding:0.5em;
 margin-left:1em;
 margin-right:2em;
-background-color:#F0F8FF;
+background-color:#F8F8F8;
 color:#000;
+border:1px solid #CCC;
+border-radius:3px;
 }
 div.body blockquote{
 border:#ddf 2px solid;

@@ -1,0 +1,21 @@
+@import url("css/bootstrap.min.css");
+@import url("css/bootstrap-responsive.min.css");
+form.update{
+margin-left:80px;
+}
+.year > input,.month > input,.day > input{
+width:50px;
+}
+form.update textarea{
+display:block;
+}
+form.update span.title input{
+display:block;
+}
+form.update .checkbox input[type="checkbox"]{
+float:none;
+margin-left:0px;
+}
+div.footer{
+text-align:center;
+}

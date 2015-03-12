@@ -12,6 +12,11 @@ background-position:center top;
 background-repeat:no-repeat;
 background-color:#222;
 }
+div.whole-content{
+text-align:left;
+margin:0px auto;
+max-width:900px;
+}
 div.adminmenu{
 text-align:right;
 color:#fff;
@@ -36,14 +41,9 @@ span.adminmenu a,span.adminmenu a:visited{
 color:#fff;
 text-decoration:none;
 }
-div.content{
-text-align:left;
-margin:0px auto;
-max-width:900px;
-}
 h1{
-height:90px;
-padding-top:200px;
+padding-top:188px;
+padding-bottom:20px;
 padding-left:16px;
 color:#fff;
 background-color:transparent;
@@ -63,8 +63,6 @@ max-width:680px;
 div.day{
 line-height:150%;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 color:#000;
 background-color:#eee;
 margin-right:10px;
@@ -76,9 +74,6 @@ text-align:left;
 font-size:small;
 background-color:#aaa;
 border-radius:8px 8px 0px 0px;
--moz-border-radius:8px 8px 0px 0px;
--webkit-border-top-left-radius:8px;
--webkit-border-top-right-radius:8px;
 padding:8px;
 padding-left:10px;
 }
@@ -92,18 +87,25 @@ div.section{
 margin-top:30px;
 }
 div.section h3{
+margin-bottom:1em;
 margin-left:16px;
 text-indent:-16px;
+}
+div.section h3 a,div.section h3 a:visited,div.section h3 a:hover{
+text-decoration:none;
 }
 .sanchor{
 color:#00e;
 background-color:#00e;
-padding:0.8em 0.2em 0px 0.2em;
-font-size:1px;
+padding-right:0.5em;
+height:1px;
+width:1px;
 }
 div.section h4{
 margin-top:2em;
 margin-left:10px;
+margin-bottom:1em;
+clear:both;
 }
 div.section p{
 margin:1em 0px 1em 10px;
@@ -113,16 +115,12 @@ margin:1em 10px 1em 30px;
 padding:8px;
 background-color:#fff;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 }
 div.section blockquote{
 margin:1em 10px 1em 30px;
 padding:2px 10px;
 background-color:#fff;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 border-style:solid;
 border-width:2px 2px 2px 2px;
 border-color:#555;
@@ -191,15 +189,20 @@ div.section div.footnote{
 margin-top:20px;
 margin-left:20px;
 }
+div.section hr{
+border-style:outset;
+width:80%;
+color:#555;
+margin:3em auto 3em 10%;
+}
 a.amazon-detail,a.amazon-detail:visited,a.amazon-detail:hover{
 color:#000;
 text-decoration:none;
 }
-div.amazon-detail{
+span.amazon-detail{
+display:block;
 margin:1em 10px 1em 30px;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 background-color:#fff;
 padding:8px;
 }
@@ -208,7 +211,8 @@ float:left !important;
 margin-right:10px !important;
 border:none !important;
 }
-div.amazon-detail-desc{
+span.amazon-detail-desc{
+display:block;
 overflow:auto;
 }
 div.sequel{
@@ -239,6 +243,11 @@ text-align:left;
 div.section div.everytrail{
 text-align:center;
 }
+div.section object.youtube{
+display:block;
+margin:10px auto;
+text-align:center;
+}
 div.section object.ustream{
 display:block;
 text-align:center;
@@ -265,11 +274,15 @@ font-weight:bold;
 div.comment .caption a{
 font-weight:normal;
 }
+div.comment a,div.comment a:visited,div.comment a:hover{
+text-decoration:none;
+}
 .canchor{
 color:#888;
 background-color:#888;
-padding:0.5em 0.2em 0px 0.2em;
-font-size:1px;
+padding-right:0.5em;
+height:1px;
+width:1px;
 }
 div.commentbody p{
 margin-left:10px;
@@ -305,8 +318,6 @@ div.day div.form input,div.day div.form textarea{
 padding-top:4px;
 padding-bottom:4px;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 }
 div.day div.form .button input{
 display:inline;
@@ -326,8 +337,6 @@ zoom:1;
 }
 div.sidebar-item{
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 color:#000;
 background-color:#eee;
 margin-bottom:10px;
@@ -338,15 +347,16 @@ div.sidebar-item h3{
 font-size:small;
 background-color:#aaa;
 border-radius:8px 8px 0px 0px;
--moz-border-radius:8px 8px 0px 0px;
--webkit-border-top-left-radius:8px;
--webkit-border-top-right-radius:8px;
 padding:10px;
+padding-bottom:8px;
 margin:-10px -10px 10px -10px;
 }
 div.sidebar-item ul{
 list-style-type:none;
 margin:0px;
+}
+div.sidebar-item a,div.sidebar-item a:visited,div.sidebar-item a:hover{
+text-decoration:none;
 }
 div.sidebar-item img.amazon{
 display:none;
@@ -356,6 +366,7 @@ margin-top:10px;
 clear:both;
 color:#eee;
 font-size:small;
+text-align:center;
 }
 div.footer a,div.footer a:visited,div.footer a:hover{
 color:#88e;
@@ -413,8 +424,6 @@ background-color:#800;
 width:100%;
 margin:0px auto;
 border-radius:8px;
--moz-border-radius:8px;
--webkit-border-radius:8px;
 font-weight:bold;
 }
 dl.search-result dt{
@@ -449,7 +458,7 @@ h1{
 padding-top:80px;
 height:50px;
 }
-div.content{
+div.whole-content{
 width:100%;
 }
 div.main{

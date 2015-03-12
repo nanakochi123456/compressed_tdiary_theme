@@ -25,6 +25,12 @@ body {
 	background-color: #222;
 }
 
+div.whole-content {
+	text-align: left;
+	margin: 0px auto;
+	max-width: 900px;
+}
+
 div.adminmenu {
 	text-align: right;
 	color: #fff;
@@ -60,15 +66,9 @@ span.adminmenu a:visited {
 	text-decoration: none;
 }
 
-div.content {
-	text-align: left;
-	margin: 0px auto;
-	max-width: 900px;
-}
-
 h1 {
-	height: 90px;
-	padding-top: 200px;
+	padding-top: 188px;
+	padding-bottom: 20px;
 	padding-left: 16px;
 	color: #fff;
 	background-color: transparent;
@@ -92,8 +92,6 @@ div.main {
 div.day {
 	line-height: 150%;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 	color: #000;
 	background-color: #eee;
 	margin-right: 10px;
@@ -106,9 +104,6 @@ div.day h2 {
 	font-size: small;
 	background-color: #aaa;
 	border-radius: 8px 8px 0px 0px;
-	-moz-border-radius: 8px 8px 0px 0px;
-	-webkit-border-top-left-radius: 8px;
-	-webkit-border-top-right-radius: 8px;
 	padding: 8px;
 	padding-left: 10px;
 }
@@ -131,20 +126,30 @@ div.section {
 }
 
 div.section h3 {
+	margin-bottom: 1em;
 	margin-left: 16px;
 	text-indent: -16px;
+}
+
+div.section h3 a,
+div.section h3 a:visited,
+div.section h3 a:hover {
+	text-decoration :none;
 }
 
 .sanchor {
 	color: #00e;
 	background-color: #00e;
-	padding: 0.8em 0.2em 0px 0.2em;
-	font-size: 1px;
+	padding-right: 0.5em;
+	height: 1px;
+	width: 1px;
 }
 
 div.section h4 {
 	margin-top: 2em;
 	margin-left: 10px;
+	margin-bottom: 1em;
+	clear: both;
 }
 
 div.section p {
@@ -156,8 +161,6 @@ div.section pre {
 	padding: 8px;
 	background-color: #fff;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 }
 
 div.section blockquote {
@@ -165,8 +168,6 @@ div.section blockquote {
 	padding: 2px 10px;
 	background-color: #fff;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 	border-style: solid;
 	border-width: 2px 2px 2px 2px;
 	border-color: #555;
@@ -249,6 +250,13 @@ div.section div.footnote {
 	margin-left: 20px;
 }
 
+div.section hr {
+	border-style: outset;
+	width: 80%;
+	color: #555;
+	margin: 3em auto 3em 10%;
+}
+
 a.amazon-detail,
 a.amazon-detail:visited,
 a.amazon-detail:hover {
@@ -256,11 +264,10 @@ a.amazon-detail:hover {
 	text-decoration: none;
 }
 
-div.amazon-detail {
+span.amazon-detail {
+	display: block;
 	margin: 1em 10px 1em 30px;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 	background-color: #fff;
 	padding: 8px;
 }
@@ -271,7 +278,8 @@ img.amazon-detail {
 	border: none !important;
 }
 
-div.amazon-detail-desc {
+span.amazon-detail-desc {
+	display: block;
 	overflow: auto;
 }
 
@@ -311,6 +319,12 @@ div.section div.everytrail {
 	text-align: center;
 }
 
+div.section object.youtube {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
 div.section object.ustream {
 	display: block;
 	text-align: center;
@@ -346,11 +360,18 @@ div.comment .caption a {
 	font-weight: normal;
 }
 
+div.comment a,
+div.comment a:visited,
+div.comment a:hover {
+	text-decoration :none;
+}
+
 .canchor {
 	color: #888;
 	background-color: #888;
-	padding: 0.5em 0.2em 0px 0.2em;
-	font-size: 1px;
+	padding-right: 0.5em;
+	height: 1px;
+	width: 1px;
 }
 
 div.commentbody p {
@@ -394,8 +415,6 @@ div.day div.form textarea {
 	padding-top: 4px;
 	padding-bottom: 4px;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 }
 
 div.day div.form .button input {
@@ -421,8 +440,6 @@ div.sidebar {
 
 div.sidebar-item {
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 	color: #000;
 	background-color: #eee;
 	margin-bottom: 10px;
@@ -434,16 +451,20 @@ div.sidebar-item h3 {
 	font-size: small;
 	background-color: #aaa;
 	border-radius: 8px 8px 0px 0px;
-	-moz-border-radius: 8px 8px 0px 0px;
-	-webkit-border-top-left-radius: 8px;
-	-webkit-border-top-right-radius: 8px;
 	padding: 10px;
+	padding-bottom: 8px;
 	margin: -10px -10px 10px -10px;
 }
 
 div.sidebar-item ul {
 	list-style-type: none;
 	margin: 0px;
+}
+
+div.sidebar-item a,
+div.sidebar-item a:visited,
+div.sidebar-item a:hover {
+	text-decoration: none;
 }
 
 div.sidebar-item img.amazon {
@@ -455,6 +476,7 @@ div.footer {
 	clear: both;
 	color: #eee;
 	font-size: small;
+	text-align: center;
 }
 div.footer a,
 div.footer a:visited,
@@ -526,8 +548,6 @@ p.message {
 	width: 100%;
 	margin: 0px auto;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
 	font-weight: bold;
 }
 
@@ -574,7 +594,7 @@ div.category ul {
 		height: 50px;
 	}
 
-	div.content {
+	div.whole-content {
 		width: 100%;
 	}
 
